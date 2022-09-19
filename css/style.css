@@ -3421,6 +3421,12 @@ ol {
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+
+	.featured__item{
+		width: 250px;
+		margin: auto;
+	}
+
 	.hero__search__form form .hero__search__categories {
 		display: none;
 	}
